@@ -45,7 +45,7 @@ class User extends CI_Controller {
 		$this->load->view('template/main',$data);
 	}
 
-     public function delete($id)
+    public function delete($id)
     {
         // Menghapus data user berdasarkan ID
         if ($this->User_model->delete($id)) {
@@ -54,5 +54,4 @@ class User extends CI_Controller {
             $this->session->set_flashdata("error", "Gagal menghapus data user");
         }
         redirect('user');
-    }
-}
+    }}

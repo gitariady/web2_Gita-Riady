@@ -16,7 +16,7 @@
                         
                         <label for="username">User Name <code>*</code></label>
                         <input class="form-control <?php echo form_error('username') ? 'is-invalid' : ''; ?>"
-                               type="text" name="username" value="<?php echo $user->username; ?>" placeholder="User Name" required />
+                        type="text" name="username" value="<?php echo $user->username; ?>" placeholder="User Name" required />
                         <div class="invalid-feedback">
                             <?php echo form_error('username'); ?>
                         </div>
