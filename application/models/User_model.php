@@ -1,5 +1,4 @@
 <?php
-
 class User_model extends CI_Model
 {
     protected $_table = 'user';

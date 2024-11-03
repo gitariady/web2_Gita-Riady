@@ -44,7 +44,8 @@ class User extends CI_Controller {
 		);
 		$this->load->view('template/main',$data);
 	}
-
+    // public function edit($id) belum dibuat
+    
     public function delete($id)
     {
         // Menghapus data user berdasarkan ID

@@ -47,7 +47,7 @@
                         </select>
                     </div>
 
-                    <button type="submit" class="btn btn-primary"><i class="fas fa-plus"></i> Update</button>
+                    <button type="submit" class="btn btn-warning"><i class="fas fa-warning"></i> Update</button>
                 </form>
             </div>
         </div>

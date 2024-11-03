@@ -67,5 +67,5 @@ class Login extends CI_Controller
         'user' => infoLogin(),
         'title' => 'Access Denied!'
     );
-    $this->load->view('login/error404', $data);
+    $this->load->view('block/404error', $data);
 }}
