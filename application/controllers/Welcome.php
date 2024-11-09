@@ -15,4 +15,9 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('profile');
 	}
+	
+	public function report_form()
+	{
+		$this->load->view('report_form');
+	}
 }
